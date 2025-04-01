@@ -67,11 +67,37 @@
 <!-- MANIPULANDO IMAGENS -->
 <img src="./imagem.jpg" alt="Imagem linda" title="Linda" width="400"/>
 <!-- FORMULARIOS -->
-<H2>aCESSO aLUNOS</H2>
+<H2>Acesso Alunos</H2>
 <form action="dados.html">
     <input type="text" placeholder="Digite seu usuario" required/>
     <input type="password" planceholder="digite sua senha" required/>
     <button type="submit">ENVIAR</button>
+</form>
+
+<!--Inputs personalizados-->
+<form>
+    <fieldset>
+        <legend>Tipos de Inputs</legend>
+        <p>Input de Texto:<input type="text"/></p>
+        <p>Input de Senha:<input type="password"/></p>
+        <p>Input de Checkbox:<input type="checkbox"></p>
+        <p>Input de Radio<input type="radio"/></p>
+        <p>Input de Range<input type="range"/></p>
+        <p>Input de Submit<input type="submit" value="ENVIAR"/></p>
+        <p>Input de Data<input type="date"/></p>
+        <p>Input de Cor<input type="color"/></p>
+        <p>Input de Arquivo<input type="file"/></p>
+        <p>Input de Número<input type="number"/></p>
+        <p>Input de Número Personalizado<input type="number" min="1" max="5"/></p>
+        <p>Input de Reset<input type="reset"/></p>
+    </fieldset>
+
+    <h2>Selecione uma linguagem</h2>
+    <select name="select" id="">
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JAVASCRIPT</option>
+    </select>
 </form>
 
 
